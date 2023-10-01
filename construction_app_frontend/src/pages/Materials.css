@@ -1,0 +1,70 @@
+/* Materials.css */
+.Materials {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.Materials h1 {
+    color: #333;
+}
+
+.Materials .Materials-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.Materials .Materials-material-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Materials .Materials-material {
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+}
+
+.Materials .Materials-material-favorite {
+    color: green;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.Materials-floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Materials-confirm-message {
+    position: fixed;
+    bottom: 70px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}

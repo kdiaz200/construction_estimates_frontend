@@ -1,0 +1,38 @@
+.Dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.UserInfo, .Sidebar {
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 20%;
+    height: 100%;
+}
+
+.UserInfo h2, .Sidebar h2 {
+    color: #333;
+}
+
+.Sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.Sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.MainContent {
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+    overflow-y: auto;
+}
